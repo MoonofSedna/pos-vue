@@ -37,7 +37,9 @@
                 +($event.target as HTMLInputElement)?.value
               )
             ">
-            <option v-for="n in cart.checkAvailability(item)">{{ n }}</option>
+            <option v-for="n in cart.checkAvailability(item)" :key="n">
+              {{ n }}
+            </option>
           </select>
         </div>
       </div>

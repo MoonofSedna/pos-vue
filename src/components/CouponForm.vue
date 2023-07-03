@@ -7,7 +7,9 @@
 
 <template>
   <div class="flex flex-col p-1">
-    <label class="font-bold py-2"> Do you have a coupon code? </label>
+    <span class="font-bold py-2" for="coupon">
+      Do you have a coupon code?
+    </span>
     <p class="py-2 font-bold text-green-700" v-if="coupon.isValidCoupon">
       Coupon code applied!
     </p>

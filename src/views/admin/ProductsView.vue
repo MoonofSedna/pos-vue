@@ -77,6 +77,7 @@
         <div class="lg:w-1/3 w-full pr-4">
           <h3 class="font-bold">Category:</h3>
           <select
+            id="category"
             v-model="category"
             :onchange="filteredProducts"
             class="w-full border border-gray-300 rounded-md p-2 mt-2 focus:outline-none focus:ring-pink-400 focus:border-pink-400">

@@ -22,7 +22,6 @@
       class="object-cover aspect-square h-80 w-full"
       :src="product.image"
       :alt="product.name" />
-
     <div class="px-6 py-4 overflow-hidden">
       <h3 class="font-bold text-xl mb-2 truncate">{{ product.name }}</h3>
       <hr class="my-2" />

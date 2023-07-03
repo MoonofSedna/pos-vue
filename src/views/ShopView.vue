@@ -69,6 +69,7 @@
           <div class="md:w-1/3 lg:pr-2 w-full">
             <h3 class="font-bold">Category:</h3>
             <select
+              id="category"
               v-model="category"
               class="w-full border border-gray-300 rounded-md p-2 mt-2 focus:outline-none focus:ring-pink-400 focus:border-pink-400">
               <option value="">All</option>
